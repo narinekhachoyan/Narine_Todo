@@ -1,0 +1,28 @@
+{
+  "name": "nartodo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prettier": "prettier '**/*.{js,json,yml}' --write",
+    "lint": "eslint -c .eslintrc --ext .js .",
+    "lint:fix": "npm run lint -- --fix"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "lint": "^0.8.19",
+    "prettier": "^3.0.3",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.48.0",
+    "nodemon": "^3.0.1",
+    "pre-commit": "^1.2.2"
+  }
+}
